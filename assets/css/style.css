@@ -576,10 +576,12 @@ textarea::-ms-input-placeholder
 
 #map {
         height: 400px;
-        width: 50%;
+        width: 100%;
         position: relative;
         margin-left: 25%;
        }
+
+
 
 
 .contact-details .contact-category{
