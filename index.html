@@ -332,6 +332,29 @@
 					<div class="col-md-6 col-md-offset-3">
 						<div class="contact-details text-center">
 
+              <div id="map"></div>
+
+
+            <script type="text/javascript" >
+                 function myMap() {
+
+                 var uluru = {lat: 46.648779, lng:  23.358398};
+                 var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 4,
+                    center: uluru,
+                    zoom:13
+                  });
+                  var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                  });
+                }
+               </script>
+               <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQ4lqaYqMC70T8fpXpwT45wQoV8UaT8oE&callback=myMap"></script>
+   
+
+
+
 							<div class="contact-category">
 								<div class="mail">
 									<h4>Mail :</h4>
