@@ -575,7 +575,7 @@ textarea::-ms-input-placeholder
 
 
 #map {
-        height: 400px;
+          height: 400px;
         width: 100%;
         position: relative;
         margin-left: 25%;
