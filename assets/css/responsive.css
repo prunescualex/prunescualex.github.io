@@ -39,6 +39,15 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 }
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+
+
+    .navbar-toggle {
+        background-color:#fff;
+        border:0;
+        border-radius:0;
+    }
+
+
     html {
         font-size: 80%;
     }
@@ -69,6 +78,15 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
+
+
+    .navbar-toggle {
+        background-color:#fff;
+        border:0;
+        border-radius:0;
+    }
+
+
     html {
         font-size: 80%;
     }
@@ -97,6 +115,13 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 
 
 @media (max-width: 320px) {
+
+
+    .navbar-toggle {
+        background-color:#fff;
+        border:0;
+        border-radius:0;
+    }
 
 
     html {
