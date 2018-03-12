@@ -572,6 +572,16 @@ textarea::-ms-input-placeholder
 .contact-details{
 	text-transform:uppercase;
 }
+
+
+#map {
+        height: 400px;
+        width: 50%;
+        position: relative;
+        margin-left: 25%;
+       }
+
+
 .contact-details .contact-category{
 	margin-top:30px;
 }
