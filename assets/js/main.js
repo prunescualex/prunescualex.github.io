@@ -25,8 +25,8 @@ jQuery(document).ready(function ($) {
             }
         }
     });
-	
-	
+
+
 	/*---------------------------------------------*
      * Portfolio Pop Up Animation
      ---------------------------------------------*/
@@ -37,28 +37,25 @@ jQuery(document).ready(function ($) {
             enabled: true
         }
     });
-	
+
 	/*---------------------------------------------*
      * Menu Background Change
      ---------------------------------------------*/
-	
-	var windowWidth = $(window).width();
-    if (windowWidth > 757) {
 
-        
-          
+	var windowWidth = $(window).width();
+
             $(window).scroll(function () {
                 if ($(this).scrollTop() > 500) {
                     $('.navbar').fadeIn(500);
                     $('.navbar').addClass('menu-bg');
 
                 } else {
-                    
+
                     $('.navbar').removeClass('menu-bg');
                 }
             });
-        
-    }
+
+    
 	$('#bs-example-navbar-collapse-1').localScroll();
 
 
@@ -71,7 +68,7 @@ jQuery(document).ready(function ($) {
 
 
     /*---------------------------------------------*
-     * Counter 
+     * Counter
      ---------------------------------------------*/
 
 //    $('.statistic-counter').counterUp({

@@ -112,6 +112,10 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 
 @media (max-width: 320px) {
 
+    .home{
+      width: 90%;
+    }
+
     .navbar-toggle {
         background-color:#fff;
         border:0;
